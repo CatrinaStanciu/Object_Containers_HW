@@ -4,6 +4,7 @@ public class Hobby {
 
     String name;
     String country;
+    int frequency;
 
 
     public Hobby(String name) {

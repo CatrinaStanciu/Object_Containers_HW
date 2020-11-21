@@ -51,6 +51,7 @@ public class Main {
         //asocierea persoanelor din set cu hobby uri din lista
         Map<Person, Hobby> personHobbies = new HashMap<>();
         personHobbies.put(new Person("Maria Avram"), hobbies.get(0));
+        personHobbies.put(new Person("Maria Avram"), hobbies.get(1));
         personHobbies.put(new Person("Ana Ionescu"), hobbies.get(1));
         personHobbies.put(new Person("Doru Dumitrescu"), hobbies.get(2));
         personHobbies.put(new Person("Diana Avram"), hobbies.get(3));
